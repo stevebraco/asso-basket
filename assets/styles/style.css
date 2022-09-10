@@ -1,21 +1,23 @@
-/* .card-hero {
-  width: 23%;
-} */
-
-.box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #aaa;
-  margin: 20px 0;
-  padding: 10px;
-  width: 100%;
-  /* min-height: 200px; */
-  border: 2px #ccc solid;
-  color: #fff;
+.hero {
+  /* width: 100%; */
 }
 
 .logo {
   width: 45px;
+}
+
+.img-adh {
+  width: 400px;
+}
+
+
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+  
 }
